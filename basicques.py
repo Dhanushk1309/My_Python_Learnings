@@ -154,6 +154,11 @@
 
 # move duplicates from the list without using set
 list=[1,2,2,4,7,5,6,1]
-seen=[]
-result=[x for x in list if(x not in seen or seen.append(x))]
-print(result)
+# seen=[]
+# result=[x for x in list if not(x in seen or seen.append(x))]
+# print(result)
+
+# Find the Second largest number
+
+nums=sorted(set(list),reverse=True)
+print(nums[1])
