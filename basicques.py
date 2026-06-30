@@ -153,12 +153,34 @@
 # print([i for i in range(1,11)])
 
 # move duplicates from the list without using set
-list=[1,2,2,4,7,5,6,1]
+# list=[1,2,2,4,7,5,6,1]
 # seen=[]
 # result=[x for x in list if not(x in seen or seen.append(x))]
 # print(result)
 
 # Find the Second largest number
 
-nums=sorted(set(list),reverse=True)
-print(nums[1])
+# nums=sorted(set(list),reverse=True)
+# print(nums[1])
+# x=33
+# result="yes" if x > 0 else "No"
+# print(result)
+
+# Enumerate means loop with index
+
+# a=["car","bike","van","auto"]
+# for i,val in enumerate(a):
+#     print(i,val)
+
+# for i,val in enumerate(a,start=1):
+#     print(i,val)
+
+# b=[10,3,4,5,6,77,8,43]
+# target=6
+# for i,v in enumerate(b):
+#     if v==target:
+#         print(f"Found {target} at {i} th index")
+#         break
+d = {"apple": 50, "banana": 20, "mango": 80}
+for key, val in d.items():
+    print(key, val)
